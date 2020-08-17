@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App input{
+  border:none;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  
+  opacity: 1;
+}
+.App table tr td{
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.bodyRow{
+
+}
+.headerRowInput input{
+  font-weight: 700;
+}
+.headerRow{
+
+  font-weight: 600;
+}
+.cellWrapper{
+  padding:2px
+}
+.owner{
+  width: 5%;
+}
+.goal{
+  width: 50%;
+}
+
+.goalCell{
+ border: none;
+ padding : 0px
+}
+.ttListWrapper {
+  list-style: none;
+  padding: 0px;
+}
+
+.ttWrapper{
+  position: fixed;
+  z-index: 2;
+  border: 2px solid;
+  background-color: beige;
+
+}
+.liElement{
+  margin: 5px;
+  border:1px solid;
+  background-color: aqua;
+}
+
+.statusttCell{
+  background-color: yellow;
+}
+.priorityttCell{
+  background-color: dodgerblue;
+}
